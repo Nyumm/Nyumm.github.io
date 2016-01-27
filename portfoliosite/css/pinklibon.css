@@ -1,0 +1,98 @@
+/*共通スタイル ----------------------------*/
+/*ページ全体の文字サイズ*/
+body{
+  font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/*ページ全体のリンクカラー*/
+a:link{
+  color:#030000;
+}
+a:visited{
+  color:#736f67;
+}
+a:hover{
+  color:#030000;
+}
+
+/*中央寄せ*/
+#wrapper{
+  width: 946px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 40px;
+}
+
+/*ヘッダー ------------------------------------*/
+header{
+  width: 946px;
+  height: 327px;
+}
+#siteId{
+
+  overflow: hidden;
+
+}
+  h1{
+  font-size: 20px;
+  margin-top: 50px;
+  /*未定------------------------------------*/
+}
+  h2{
+
+  color:#666666;
+}
+
+/*ナビゲーション ------------------------------------*/
+nav{
+  margin-bottom: 20px;
+  margin-top: 37px;
+  text-align: center;
+  font-size: 18px;
+}
+nav ul{
+  overflow: hidden;
+}
+nav li{
+  float: left;
+  margin-left: 125px;
+}
+nav li:last-child{
+  margin-right: 0;
+}
+
+nav a:link,nav a:visited{
+  border-bottom: 1px solid #555555;
+  display: block;
+  color:#555555;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#border2{
+  margin-top: -10pt;
+}
+
+
+/*main ------------------------------------*/
+
+
+#mainVisual{
+  margin-top: 20px;
+  top: 250px;
+  margin-left: 154px;
+  float:right
+  width: 452px;
+  margin-left: 420px;
+}
+
+#p{
+  margin-top: 350px;
+  width: 290px;
+  margin-left: 140px;
+  float:left;
+  line-height:33px;
+}
